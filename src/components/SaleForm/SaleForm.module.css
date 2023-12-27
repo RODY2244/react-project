@@ -1,0 +1,37 @@
+.wrapper {
+    background: linear-gradient(to right, rgba(51, 153, 51, 1), rgba(11, 113, 11, 1));
+    margin: 100px 2%;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 64px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 900;
+    padding-top: 20px;
+}
+.block {
+    display: flex;
+    flex-direction: row;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.input {
+    background: none;
+    border: 1.5px solid white;
+    border-radius: 6px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    width: 400px;
+    padding: 14px 8px;
+    font-weight: 900;
+}

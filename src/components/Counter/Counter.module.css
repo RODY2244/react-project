@@ -1,0 +1,30 @@
+.wrapper {
+    display: flex;
+    gap: 20px;
+}
+.btn {
+    width: 46px;
+    height: 46px;
+    background: none;
+    border: .5px solid rgb(188, 188, 188);
+    border-radius: 6px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(40, 40, 40, 1);
+}
+.title {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(40, 40, 40, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

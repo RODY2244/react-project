@@ -1,0 +1,23 @@
+.wrapper {
+    background-image: url(./img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+    flex-direction: column;
+    padding-left: 2%;
+}
+.title {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 96px;
+    font-weight: 900;
+}
+
+.btn {
+    color: red;
+}

@@ -1,0 +1,50 @@
+.btnCategory {
+    border: 0;
+    background-color: none;
+    padding: 4px 6px;
+    border: 1px solid rgba(221, 221, 221, 1);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(139, 139, 139, 1);
+    border-radius: 6px;
+    width: 170px;
+}
+.btnMain {
+    width: 250px;
+    padding: 10px 12px;
+    border-radius: 6px;
+    border:  none;
+    background-color: rgba(51, 153, 51, 1);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+}
+.btnMain:hover {
+    background-color: rgba(40, 40, 40, 1);
+    color: white;
+}
+.btnMain:active {
+    background-color: rgb(18, 18, 18);
+}
+.btnForm {
+    width: 100%;
+    padding: 12px 14px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(40, 40, 40, 1);
+    border: none;
+    border-radius: 6px;
+
+}

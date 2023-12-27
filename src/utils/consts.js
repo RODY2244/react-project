@@ -1,0 +1,8 @@
+export const MAIN_ROUTE = '/'
+export const CATEGORY_ROUTE = '/category'
+export const DISCOUNT_ROUTE = '/discount'
+export const ITEM_ROUTE = '/item'
+export const ITEMS_ROUTE = 'category/items'
+export const ALL_ITEMS_ROUTE = '/allitems'
+export const NOTFOUND_ROUTE = '*'
+export const SHOPBASKET_ROUTE = '/shopbasket'

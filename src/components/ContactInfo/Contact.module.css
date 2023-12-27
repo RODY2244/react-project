@@ -1,0 +1,40 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 0 2%;
+}
+.title {
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(40, 40, 40, 1);
+    font-size: 64px;
+    font-weight: 900;
+}
+.wrap {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    gap: 100px;
+    padding-top: 15px;
+}
+.block {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.text {
+    color: rgba(139, 139, 139, 1);
+    font-size: 20px;
+}
+.head {
+    color: rgba(40, 40, 40, 1);
+    font-size: 40px;
+    font-weight: 900;
+}
+.images {
+    display: flex;
+    gap: 15px;
+}

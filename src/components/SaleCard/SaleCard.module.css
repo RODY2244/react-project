@@ -1,0 +1,126 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-bottom: 20px;
+    border: .5px solid rgb(182, 182, 182);
+    border-radius: 6px;
+}
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(40, 40, 40, 1);
+    width: 316px;
+    margin-left: 5px;
+    padding-top: 10px;
+    height: 75px;
+
+}
+.text {
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 10px;
+    font-size: 40px;
+    color: rgba(40, 40, 40, 1);
+    font-weight: 900;
+    margin-left: 5px;
+
+}
+.link {
+    text-decoration: none;
+}
+.image {
+    width: 416px;
+    height: 384px;
+    padding: 20px;
+}
+.textprice {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(139, 139, 139, 1);
+    text-decoration: line-through;
+    padding-bottom: 6px;
+}
+.priceBlock {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+
+.btn {
+    display: none;
+    position: absolute;
+    width: 284px;
+    height: 58px;
+    padding: 16px, 32px, 16px, 32px;
+    border-radius: 6px;
+    gap: 10px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    background-color: rgba(51, 153, 51, 1);
+    color: white;
+    border: 0;
+    opacity: 0;
+    animation: btn .5s forwards;
+    margin-bottom: 100px;
+    
+}
+.monitor {
+    display: flex;
+    position: absolute;
+    width: 70px;
+    height: 40px;
+    padding: 16px, 32px, 16px, 32px;
+    border-radius: 6px;
+    gap: 10px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    background-color: rgba(51, 153, 51, 1);
+    color: white;
+    border: 0;
+    opacity: 0;
+    animation: btn .5s forwards;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 330px;
+}
+.btn:hover {
+    background-color: rgba(40, 40, 40, 1);
+}
+
+.card:hover {
+    .btn {
+        display: block;
+    }
+}
+
+
+@keyframes btn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+
+
+.wid {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
